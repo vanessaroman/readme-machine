@@ -3,15 +3,10 @@ const fs = require('fs')
 const inquirer = require('inquirer');
 const { resolve } = require('path');
 
-// fs.writeFile("index.html", "<h1>Bye Squirrels</h1>", (err) => {
-//   if (err) throw err
-
-//   console.log("success")
 
 // })
 // TODO: Create an array of questions for user input
 
-// ![license](./assets/${response.license}.png)
 
 inquirer
   .prompt([
@@ -60,16 +55,14 @@ inquirer
       name: 'license',
       message: 'Select a license associated with this project',
       choices: [
-          { name: 'Creative License', value: 'Creative License: You are free to do as you please! Just yell creative license and you will face no consequences!'},  
-          { name: 'Coding License', value: 'Coding License: You are officially a coder. With this license, by law, you cannot be denied a coding job. Go ahead and give Google a call!' },
-          { name: 'Magic License', value: 'Magic License: Wow! You sure know how to trick the system. Can you feel your hands buzzing? That is the magic doing its thing!' },]
-    }
-  ]).then((response) =>{
+          {name: 'Creative License', value: 'Creative License: You are free to do as you please! Just yell creative license and you will face no consequences!'},  
+          {name: 'Coding License', value: 'Coding License: You are officially a coder. With this license, by law, you cannot be denied a coding job. Go ahead and give Google a call!'},
+          {name: 'Magic License', value: 'Magic License: Wow! You sure know how to trick the system. Can you feel your hands buzzing? That is the magic doing its thing!'}]
+          
+    }]).then((response) =>{
     console.table(response)
     fs.writeFile("README.md", `
-
     
-
 # ${response.title}
 
 ## Table of Contents

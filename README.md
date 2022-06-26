@@ -1,8 +1,6 @@
 
-
     
-
-# fdgsd
+# The Gratest Project Ever
 
 ## Table of Contents
 * [About](#about-this-application)
@@ -14,26 +12,26 @@
 * [Questions](#any-questions)
   
 ## About this Application 
-    fgdsfg
+    This is a project about brains and creativity. This is a project that will change people's lives. Have you heard about the Stanly Parable? This is nothing like that. This is serious and meaningful. 100%. Trust me.
       
 ## Installation Instructions
-    sdfg
+    Turn computer on, go to GitHub, download repository (good luck).
 
 ## User Instructions 
-    sdfg
+    Believe in yourself! The app can tell if you are not confident in your abilities. Then, answer the questions (for your safety: DO NOT LIE!)
 
 ## License
-    Magic License: Wow! You sure know how to trick the system. Can you feel your hands buzzing? That is the magic doing its thing!
+    Coding License: You are officially a coder. With this license, by law, you cannot be denied a coding job. Go ahead and give Google a call!
 
 ## Contributions By
-    sdf
+    Google and class recordings!
 
 ## Tests 
-    g
+    TEST TEST TEST
 
 ## Any questions?
-Find me here: [github.com/dsgdfg](https://github.com/dsgdfg)
+Find me here: [github.com/vanessaroman](https://github.com/vanessaroman)
 
-Reach me at: sdfgsdf
+Reach me at: vanessrr@gmail.com
 
       
